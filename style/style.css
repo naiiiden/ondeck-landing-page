@@ -125,4 +125,61 @@ header nav .products_container .product .text_wrapper p.product_description {
 header nav .nav-ul {
   display: none;
 }
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 3rem 0;
+    width: 75%;
+    margin: auto;
+  }
+  header .logo_button_container {
+    width: unset;
+    padding: 0;
+  }
+  header .logo_button_container button {
+    display: none;
+  }
+  header nav {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  header nav .nav-ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.5rem;
+  }
+  header nav .nav-ul .push_right {
+    margin-left: auto;
+  }
+  header nav .nav-ul a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-weight: 500;
+  }
+  header nav .nav-ul a.try_for_free {
+    background-color: #133416;
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: .5rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header nav .nav-ul {
+    gap: 2.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
