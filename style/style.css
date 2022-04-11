@@ -176,8 +176,10 @@ header nav .nav-ul {
     color: #6c6c6c;
     font-weight: 500;
   }
-  header nav .nav-ul a.toggle_products {
-    cursor: pointer;
+  header nav .nav-ul a:hover {
+    color: #F7B300;
+    -webkit-transition: .1s;
+    transition: .1s;
   }
   header nav .nav-ul a.try_for_free {
     background-color: #133416;
@@ -186,10 +188,25 @@ header nav .nav-ul {
     padding: 1rem;
     border-radius: .5rem;
   }
+  header nav .nav-ul a.try_for_free:hover {
+    color: #f7b300;
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
   header nav .products_container {
     width: 27.5rem;
     top: 6rem;
     right: 7.5rem;
+  }
+  header nav .products_container .product {
+    padding: .25rem;
+    border: 1px solid #fff;
+  }
+  header nav .products_container .product:hover {
+    border: 1px solid #dadada;
+    border-radius: .5rem;
+    -webkit-transition: .1s;
+    transition: .1s;
   }
 }
 
