@@ -39,7 +39,7 @@ header nav .products_container {
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   display: none;
-  border-radius: .5rem;
+  border-radius: 1rem;
   padding: 1.5rem;
   background: #fff;
   -webkit-box-orient: vertical;
