@@ -163,6 +163,14 @@ header nav .nav-ul {
   header nav .nav-ul .push_right {
     margin-left: auto;
   }
+  header nav .nav-ul .toggle_products {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: 1rem;
+  }
   header nav .nav-ul a {
     text-decoration: none;
     color: #6c6c6c;

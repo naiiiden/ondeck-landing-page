@@ -10,3 +10,9 @@ document.querySelector(".hamburger").addEventListener("click", () => {
 document.querySelector(".toggle_products").addEventListener("click", () => {
     document.querySelector(".products_container").classList.toggle("show");
 });
+
+window.addEventListener("click", (e) => {
+    if (!e.target.matches('.toggle_products')) {
+      document.querySelector(".products_container").classList.remove("show");
+    }
+});
