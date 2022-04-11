@@ -10,6 +10,7 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: Inter, sans-serif;
+  background-color: #f3ede5;
 }
 
 img {
@@ -48,7 +49,7 @@ header nav .products_container {
           flex-direction: column;
   gap: 1.5rem;
   position: absolute;
-  top: .425rem;
+  top: .5rem;
   left: 0;
   right: 0;
   margin: auto;
@@ -113,6 +114,7 @@ header nav .products_container .product .text_wrapper {
 header nav .products_container .product .text_wrapper p {
   color: #0a263f;
   font-weight: 700;
+  font-size: .9rem;
 }
 
 header nav .products_container .product .text_wrapper p.product_description {
