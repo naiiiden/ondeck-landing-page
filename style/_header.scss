@@ -113,6 +113,10 @@ header {
                     color: #6c6c6c;
                     font-weight: 500;
 
+                    &.toggle_products {
+                        cursor: pointer;
+                    }
+
                     &.try_for_free {
                         background-color: #133416;
                         color: #fff;
@@ -121,6 +125,12 @@ header {
                         border-radius: .5rem;
                     }
                 }
+            }
+
+            .products_container {
+                width: 27.5rem;
+                top: 6rem;
+                right: 7.5rem;
             }
         }
     }

@@ -168,12 +168,20 @@ header nav .nav-ul {
     color: #6c6c6c;
     font-weight: 500;
   }
+  header nav .nav-ul a.toggle_products {
+    cursor: pointer;
+  }
   header nav .nav-ul a.try_for_free {
     background-color: #133416;
     color: #fff;
     font-weight: 700;
     padding: 1rem;
     border-radius: .5rem;
+  }
+  header nav .products_container {
+    width: 27.5rem;
+    top: 6rem;
+    right: 7.5rem;
   }
 }
 

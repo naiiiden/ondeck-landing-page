@@ -6,3 +6,7 @@ document.querySelector(".hamburger").addEventListener("click", () => {
         document.querySelector(".menu-icon").setAttribute("src", "Assets/Menu.svg");
     }
 });
+
+document.querySelector(".toggle_products").addEventListener("click", () => {
+    document.querySelector(".products_container").classList.toggle("show");
+});
