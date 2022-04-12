@@ -1,0 +1,114 @@
+main {
+    width: 90%;
+    margin: auto;
+    padding: 0 1.5rem;
+
+    .hero_image {
+        display: none;
+    }
+
+    .main_text_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+
+        h1 {
+            span {
+                color: #f7b300;
+            }
+        }
+
+        p {
+            color: #6c6c6c;
+        }
+
+        .try_for_free {
+            text-decoration: none;
+            background-color: #133416;
+            color: #fff;
+            font-weight: 700;
+            padding: 1rem;
+            border-radius: .5rem;
+
+            &:hover {
+                color: #f7b300;
+                transition: .1s;
+            }
+        }
+
+        .testimonial {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .company_icons {
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+
+                .shopify_icon {
+                    transform: scale(.9);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        width: 75%;
+        padding: 3rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+        .main_text_wrapper {
+            gap: 1.25rem;
+
+            h1 {
+                font-size: 2.75rem;
+            }
+
+            .testimonial {
+                gap: .75rem;
+            }
+        }
+
+        .hero_image {
+            display: block;
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    main {
+        .main_text_wrapper {
+            h1 {
+                font-size: 3.25rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        .main_text_wrapper {
+            gap: 1.75rem;
+
+            h1 {
+                font-size: 3.75rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+
+        .hero_image {
+            width: 350px;
+        }
+    }
+}

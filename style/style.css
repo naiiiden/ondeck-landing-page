@@ -215,4 +215,128 @@ header nav .nav-ul {
     gap: 2.5rem;
   }
 }
+
+main {
+  width: 90%;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+main .hero_image {
+  display: none;
+}
+
+main .main_text_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1rem;
+}
+
+main .main_text_wrapper h1 span {
+  color: #f7b300;
+}
+
+main .main_text_wrapper p {
+  color: #6c6c6c;
+}
+
+main .main_text_wrapper .try_for_free {
+  text-decoration: none;
+  background-color: #133416;
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+main .main_text_wrapper .try_for_free:hover {
+  color: #f7b300;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+main .main_text_wrapper .testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .main_text_wrapper .testimonial .company_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+}
+
+main .main_text_wrapper .testimonial .company_icons .shopify_icon {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    width: 75%;
+    padding: 3rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+  }
+  main .main_text_wrapper {
+    gap: 1.25rem;
+  }
+  main .main_text_wrapper h1 {
+    font-size: 2.75rem;
+  }
+  main .main_text_wrapper .testimonial {
+    gap: .75rem;
+  }
+  main .hero_image {
+    display: block;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main .main_text_wrapper h1 {
+    font-size: 3.25rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  main .main_text_wrapper {
+    gap: 1.75rem;
+  }
+  main .main_text_wrapper h1 {
+    font-size: 3.75rem;
+  }
+  main .main_text_wrapper p {
+    font-size: 1.2rem;
+  }
+  main .hero_image {
+    width: 350px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
