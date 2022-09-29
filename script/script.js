@@ -3,6 +3,14 @@ openProductsList.forEach(button => {
     button.addEventListener("click", () => {
         document.querySelector(".products_container").classList.toggle("show");
         
+        if (document.querySelector(".deskbtn").ariaExpanded == "false") {
+            document.querySelector(".deskbtn").ariaExpanded = "true";
+            document.querySelector(".deskbtn").ariaLabel = "Close products list";
+        } else {
+            document.querySelector(".deskbtn").ariaExpanded = "false";
+            document.querySelector(".deskbtn").ariaLabel = "Open products list";
+        }
+
         const mobileQuery = window.matchMedia("(max-width: 1023px)");
         if (mobileQuery.matches) {
             if (document.querySelector(".menu-icon").getAttribute("src") === "Assets/Menu.svg") {
