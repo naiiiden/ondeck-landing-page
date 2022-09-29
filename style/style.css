@@ -130,6 +130,7 @@ header nav .nav-ul {
     color: #6c6c6c;
     font-weight: 500;
     font-size: 1rem;
+    background: none;
   }
   header nav .nav-ul a {
     text-decoration: none;
