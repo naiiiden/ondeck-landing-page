@@ -170,27 +170,27 @@ header nav .nav-ul {
     gap: 2.5rem;
   }
 }
-main {
+.main {
   width: 90%;
   margin: auto;
   padding: 0 1.5rem;
 }
-main .hero_image {
+.main .hero_image {
   display: none;
 }
-main .main_text_wrapper {
+.main .main_text_wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
 }
-main .main_text_wrapper h1 span {
+.main .main_text_wrapper h1 span {
   color: #f7b300;
 }
-main .main_text_wrapper p {
+.main .main_text_wrapper p {
   color: #6c6c6c;
 }
-main .main_text_wrapper .try_for_free {
+.main .main_text_wrapper .try_for_free {
   text-decoration: none;
   background-color: #133416;
   color: #fff;
@@ -198,26 +198,26 @@ main .main_text_wrapper .try_for_free {
   padding: 1rem;
   border-radius: 0.5rem;
 }
-main .main_text_wrapper .try_for_free:hover {
+.main .main_text_wrapper .try_for_free:hover {
   color: #f7b300;
   transition: 0.1s;
 }
-main .main_text_wrapper .testimonial {
+.main .main_text_wrapper .testimonial {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-main .main_text_wrapper .testimonial .company_icons {
+.main .main_text_wrapper .testimonial .company_icons {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-main .main_text_wrapper .testimonial .company_icons .shopify_icon {
+.main .main_text_wrapper .testimonial .company_icons .shopify_icon {
   transform: scale(0.9);
 }
 
 @media screen and (min-width: 1024px) {
-  main {
+  .main {
     width: 75%;
     padding: 3rem 0;
     display: flex;
@@ -225,36 +225,36 @@ main .main_text_wrapper .testimonial .company_icons .shopify_icon {
     align-items: center;
     gap: 2rem;
   }
-  main .main_text_wrapper {
+  .main .main_text_wrapper {
     gap: 1.25rem;
   }
-  main .main_text_wrapper h1 {
+  .main .main_text_wrapper h1 {
     font-size: 2.75rem;
   }
-  main .main_text_wrapper .testimonial {
+  .main .main_text_wrapper .testimonial {
     gap: 0.75rem;
   }
-  main .hero_image {
+  .main .hero_image {
     display: block;
     width: 300px;
   }
 }
 @media screen and (min-width: 1280px) {
-  main .main_text_wrapper h1 {
+  .main .main_text_wrapper h1 {
     font-size: 3.25rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  main .main_text_wrapper {
+  .main .main_text_wrapper {
     gap: 1.75rem;
   }
-  main .main_text_wrapper h1 {
+  .main .main_text_wrapper h1 {
     font-size: 3.75rem;
   }
-  main .main_text_wrapper p {
+  .main .main_text_wrapper p {
     font-size: 1.2rem;
   }
-  main .hero_image {
+  .main .hero_image {
     width: 350px;
   }
 }

@@ -1,4 +1,4 @@
-main {
+.main {
     width: 90%;
     margin: auto;
     padding: 0 1.5rem;
@@ -56,7 +56,7 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
-    main {
+    .main {
         width: 75%;
         padding: 3rem 0;
         display: flex;
@@ -84,7 +84,7 @@ main {
 }
 
 @media screen and (min-width: 1280px) {
-    main {
+    .main {
         .main_text_wrapper {
             h1 {
                 font-size: 3.25rem;
@@ -94,7 +94,7 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
-    main {
+    .main {
         .main_text_wrapper {
             gap: 1.75rem;
 
