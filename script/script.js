@@ -7,8 +7,12 @@ openProductsList.forEach(button => {
         if (mobileQuery.matches) {
             if (document.querySelector(".menu-icon").getAttribute("src") === "Assets/Menu.svg") {
                 document.querySelector(".menu-icon").setAttribute("src", "Assets/Close.svg");
+                document.querySelector("#hamburger").ariaLabel = "Close menu";
+                document.querySelector("#hamburger").ariaExpanded = "true";
             } else {
                 document.querySelector(".menu-icon").setAttribute("src", "Assets/Menu.svg");
+                document.querySelector("#hamburger").ariaLabel = "Open menu";
+                document.querySelector("#hamburger").ariaExpanded = "false";
             }
         }
 
